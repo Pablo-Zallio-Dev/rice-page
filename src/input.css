@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h3 {
+    @apply font-young-serif text-[28px] text-brown-800
+}
+
+ol li {
+    @apply ml-6 pl-[16px]
+}

@@ -1,0 +1,30 @@
+.list-preparation ul{
+    list-style: none;
+}
+
+.list-preparation .item::before {
+    content: " ";
+    width: 4px;
+    height: 4px;
+    background-color: #a52a2a;
+    position: absolute;
+    left: 8px;
+    top: 45%;
+    border-radius: 50%;
+}
+
+.list-preparation .item {
+    padding-left: 40px;
+    
+}
+
+.list-instruction{
+    list-style: decimal;
+    list-style-position: inside;
+    margin-right: 16px;
+}
+
+
+.item-instruction::marker {
+    font-weight: 700;
+}
