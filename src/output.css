@@ -662,6 +662,14 @@ video {
   margin-bottom: 0.25rem;
 }
 
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1013,6 +1021,11 @@ ol li {
   .lg\:my-5 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
+  }
+
+  .lg\:my-\[123px\] {
+    margin-top: 123px;
+    margin-bottom: 123px;
   }
 
   .lg\:mt-5 {
